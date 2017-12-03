@@ -1,0 +1,30 @@
+{
+  "name": "trabajando",
+  "description": "Invoicing System",
+  "version": "1.0.0",
+  "author": "Tom Ploskina <tploskinajr@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --watch",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "vue": "^2.5.9",
+    "vuetify": "^1.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^5.1.1",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "style-loader": "^0.19.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-loader": "^13.5.0",
+    "vue-template-compiler": "^2.5.9",
+    "webpack": "^3.9.1"
+  }
+}
