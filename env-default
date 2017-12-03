@@ -1,0 +1,6 @@
+DEBUG=True
+SECRET_KEY='YOUR KEY HERE'
+STATIC_FOLDER='/path/to/static/folder'
+DB_NAME='yourdbname'
+DB_USERNAME='yourusername'
+DB_PASSWORD='************'
