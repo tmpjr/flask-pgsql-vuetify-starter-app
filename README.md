@@ -1,2 +1,3 @@
 # flask-pgsql-vuetify-starter-app
-A simple starter app for flask with 
+A simple starter app for flask using PostgreSQL & Vuetify.
+
